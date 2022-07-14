@@ -40,7 +40,7 @@ CSHARP8 = 4434.92;FSHARP8 = 5919.91;GSHARP8 = 6644.88
 
 # functions
 def ch(note1):
-    music.play_tone(note1, music.beat(BeatFraction.QUARTER / 1.5))
+    music.play_tone(note1, music.beat(BeatFraction.QUARTER / 2))
 
 def c(note):
     music.play_tone(note, music.beat(BeatFraction.QUARTER))

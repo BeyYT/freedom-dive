@@ -93,7 +93,7 @@ let FSHARP8 = 5919.91
 let GSHARP8 = 6644.88
 //  functions
 function ch(note1: number) {
-    music.playTone(note1, music.beat(BeatFraction.Quarter / 1.5))
+    music.playTone(note1, music.beat(BeatFraction.Quarter / 2))
 }
 
 function c(note: number) {
